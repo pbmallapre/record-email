@@ -70,7 +70,7 @@ msg['Subject'] = 'SAMPLE'
 msg['From'] = EMAIL_ADDRESS
 msg['To'] = 'annemall.qa@gmail.com'
 
-msg.set_content('Img attached')
+msg.set_content('RECORDED VIDEO!!!!')
 
 with open('hey.avi', 'rb') as f:
     file_data=f.read()
